@@ -1,6 +1,8 @@
 
 import java.util.*;
 
+// All the methods of collection and list interface can be called in this vector as in linkedlist and arraylist
+// similar to array list as size can be increased dynamically but Vectors are SYNCHRONISED
 public class VectorImplementation {
     static void main(String[] args) {
         List<Integer> vectorlist = new Vector<>();
