@@ -1,6 +1,8 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
+
+//Queue immplementation using linkedlist() interface
 public class QueueBasics {
     static void main(String[] args) {
         Queue<Integer> q1 = new LinkedList<>();
