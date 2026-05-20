@@ -15,7 +15,7 @@ public class Comparator {
 
         //we cant sort this list directly thus we will have to implement Comparable interface in our Student2.java file
 
-        Collections.sort(Students);
+        Collections.sort(Students,new WeightComparator());
         System.out.println(Students);
     }
 }
