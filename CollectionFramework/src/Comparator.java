@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -17,5 +18,9 @@ public class Comparator {
 
         Collections.sort(Students,new WeightComparator());
         System.out.println(Students);
+        //Direct sorting logic based on weights using lambda expression
+       //Collections.sort(Students,(o1,o2)->o1.weight-o2.weight);
+
+       //comparing and thencomparing
     }
 }
