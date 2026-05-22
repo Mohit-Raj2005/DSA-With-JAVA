@@ -25,8 +25,17 @@ public class BitwiseOperator {
         for (int i=1 ; i <=32; i++){
             n= n<<1;
             System.out.println(n);
-            System.out.println();
+            System.out.println();}
 
+
+        // Right Shift >>  operator
+        // shift each bit to the right
+        // it gives N/2 with each shift if N is the number over which we are performing the right shift operation
+        int m = 100;
+            for ( int i = 1 ; i <= 32;i++){
+                m=m>>1;
+                System.out.println(m);
+            }
         }
 
 
