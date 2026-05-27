@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class ShiftArrayElements {
 
     //shifting the elements of an array by 1 in a cyclic manner
-    static int[] ShiftArrayElements(int[] arr)
+    static int[] ShiftArrayElementsBy1(int[] arr)
     {
         int temp=arr[arr.length-1];  //storing the last element of the array in a temporary variable
         for(int i=arr.length-1;i>0;i--){        //iterating the loop from the end and going till 1 index
@@ -16,7 +16,7 @@ public class ShiftArrayElements {
    public static void main(String[] args) {
         int[] arr={1,2,3,4,5,6,7,8};
        System.out.println("Array before shifting"+ Arrays.toString(arr));
-       ShiftArrayElements(arr);
+       ShiftArrayElementsBy1(arr);
        System.out.println("Array after shifting"+ Arrays.toString(arr));
 
     }
