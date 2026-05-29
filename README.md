@@ -38,4 +38,12 @@ Here’s a quick reference for the time and space complexities of common data st
 > - Complexities may vary slightly depending on implementation details.
 
 
+## 🌍 Community
+
+- Share your solutions via Pull Requests  
+- Discuss approaches in Issues  
+- Use this repo for group study sessions  
+
+
+
 
