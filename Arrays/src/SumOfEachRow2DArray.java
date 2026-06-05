@@ -23,7 +23,9 @@ public class SumOfEachRow2DArray {
         }
         return array;
     }
-
+    // Logic For calculating rows and columns in a 2D matrix //
+// int rows = mat.length;
+// int columns = mat[0].length;
     public static void main(String[] args) {
         int[][] mat1 = {{1, 2, 3},{4, 5, 6},{7, 8, 9}};  //  2D Array
         System.out.println("Sum Of Each Row in Matrix 1: "+Arrays.toString(rowSum(mat1)));
