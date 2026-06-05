@@ -10,7 +10,7 @@
 //Output: [14, 7]
 //Explanation: Column 1 -> 1+10+3=14, Column 2 -> 2+2+3=7
 import java.util.Arrays;
-public interface ColumnSumIn2DArray {
+public class ColumnSumIn2DArray {
     public static int[] colSum(int mat[][]) {
 
         int rows = mat.length;  //calculating the number of rows
